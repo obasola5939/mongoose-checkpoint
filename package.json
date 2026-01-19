@@ -1,0 +1,24 @@
+{
+  "name": "mongoose-crud-project",
+  "version": "1.0.0",
+  "description": "Complete Mongoose CRUD operations implementation",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "mocha test/**/*.test.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.8"
+  },
+  "keywords": ["mongodb", "mongoose", "crud", "database"],
+  "author": "Your Name",
+  "license": "MIT"
+}
